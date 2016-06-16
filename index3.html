@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 3</title>
+	<link rel="stylesheet" type="text/css" href="hello.css">
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+<form method="POST" action=""> 
+<fieldset>
+	<legend> Step1: Your Details</legend>
+	<div class="styling">
+		Name: <input type="text" name="name" value="first and last name"> Name</input>
+		<br>
+	</div>
+	<div class="styling">
+		E-mail: <input type="text" name="e-mail" value="example@domain.com"> E-mail</input>
+		<br>
+	</div>
+	<div class="styling">
+		Phone: <input type="text" name="phone" value="e.g +44750000000000"> Phone</input>
+		<br>
+	</div>
+</fieldset>
+
+<fieldset>
+<legend>Step1: Delivery Address</legend>
+	<div class="styling" id="ad">
+	Address<textarea rows="2" cols="30" name="address"></textarea>
+	<br>
+	</div>
+	<div class="styling">
+	Postcode <input type="text" name="post"> </input>
+	<br>
+	</div>
+	<div class="styling">
+	Country <input type="text" name="country" > </input>
+	<br>
+	</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Step1: Card Details</legend>
+		<div class="styling">
+			Cardtype
+			<br> <br> <br> <br> <br>
+			
+		 <div class="rad">
+         <input type="radio" value = "Visa" name="abc"> <img src="visa.jpg" alt="visa-image" class="radio_image"></img> Visa </input> &nbsp
+		<input type="radio" value ="AmEx" name="abc"> <img src="amex.png" alt="amex-image" class="radio_image"></img> AmEx</input> &nbsp
+		<input type="radio" value ="Mastercard" name="abc"> <img src="mastercard.png" alt="mastercard-image" class="radio_image"> </img> Mastercard </input>
+		</div>
+		</div>
+		<br>
+		<div class="styling">
+					Card Number: <input type="text" name="cardno" ></input>
+				<br> 
+				</div>
+
+				<div class="styling">
+					Security Code: <input type="text" name="secode"> </input>
+				<br>
+				</div>
+
+				<div class="styling">
+					Name on card: <input type="text" name="cardname" value="exact name as on card"> </input>
+				<br>
+				</div>
+
+	
+	</fieldset>
+	<button class="button-M" type="button" value="buy" name="bname">BUY IT</button>
+	</form>
+</body>
+</html>
